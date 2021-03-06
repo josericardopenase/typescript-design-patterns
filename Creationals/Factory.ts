@@ -5,7 +5,7 @@ interface Animal{
 
 
 interface Factory{
-    create : (args : any) => Object;
+    create : (args : any) => Animal;
 }
 
 
@@ -55,6 +55,6 @@ AnimalCreator.create().noise();
 AnimalCreator.create().noise();
 AnimalCreator.create().noise();
 AnimalCreator.create().noise();
-AnimalCreator.create().noise();
+AnimalCreator.create().noise(); 
 AnimalCreator.create().noise();
 
